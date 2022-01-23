@@ -26,7 +26,8 @@ nav {
   }
 }
 .navbar-brand {
-  padding-left: 5px;
+  padding-left: 4px;
+  font-size: 0.8em;
 }
 nav > a:link {
   text-decoration: none;
@@ -47,7 +48,8 @@ nav > a:hover {
 }
 
 .card-img {
-  width: 250px;
+  width: 28vw;
+  /* height: 15rem; */
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -61,9 +63,10 @@ nav > a:hover {
 .location-details {
   display: flex;
   align-items: center;
-  font-size: 15px;
+  /* font-size: 15px; */
   z-index: 1;
-  /* align-items: stretch; */
+  font-size: 2vw;
+  align-items: stretch;
 }
 
 .gray {
@@ -79,20 +82,21 @@ nav > a:hover {
 }
 
 .card-body {
-  padding: 15px;
+  padding: 2vw;
   display: flex;
   flex-direction: column;
-  padding-left: 10px;
+  padding-left: 0.8em;
   justify-content: stretch;
   /* max-height: 250px; */
+  font-size: 2vw;
 }
 .title {
   /* font-size: 20px; */
   font-weight: bold;
-  margin: -20px 0px;
+  margin-top: -1em;
 }
 .date {
-  font-size: 15px;
+  /* font-size: 0.5rem; */
   font-weight: bold;
-  margin: 5px 0px;
+  margin: -0.1vw 0px;
 }
