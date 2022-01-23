@@ -44,11 +44,19 @@ nav > a:hover {
   color: skyblue;
 }
 .cards {
-  margin: 45px;
+  margin: 3vw;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 15px;
+  height: 26vh;
 }
 
 .card-img {
-  width: 28vw;
+  height: 100%;
   /* height: 15rem; */
   border-radius: 5px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -65,7 +73,7 @@ nav > a:hover {
   align-items: center;
   /* font-size: 15px; */
   z-index: 1;
-  font-size: 2vw;
+  font-size: 0.6rem;
   align-items: stretch;
 }
 
@@ -73,23 +81,22 @@ nav > a:hover {
   color: #918e9b;
 }
 
-.card {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 15px;
-}
-
 .card-body {
-  padding: 2vw;
+  padding: 0.7rem;
   display: flex;
   flex-direction: column;
-  padding-left: 0.8em;
+  padding-left: 1rem;
   justify-content: stretch;
   /* max-height: 250px; */
-  font-size: 2vw;
+  font-size: 2vh;
 }
+
+@media screen and (max-width: 700px) {
+  .card-body {
+    font-size: 1.5vw;
+  }
+}
+
 .title {
   /* font-size: 20px; */
   font-weight: bold;
