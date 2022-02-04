@@ -52,7 +52,7 @@ nav > a:hover {
   align-items: stretch;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 15px;
-  height: 26vh;
+  height: 12rem;
 }
 
 .card-img {
@@ -71,7 +71,6 @@ nav > a:hover {
 .location-details {
   display: flex;
   align-items: center;
-  /* font-size: 15px; */
   z-index: 1;
   font-size: 0.6rem;
   align-items: stretch;
@@ -88,22 +87,26 @@ nav > a:hover {
   padding-left: 1rem;
   justify-content: stretch;
   /* max-height: 250px; */
-  font-size: 2vh;
-}
-
-@media screen and (max-width: 700px) {
-  .card-body {
-    font-size: 1.5vw;
-  }
+  font-size: 1.5rem;
 }
 
 .title {
-  /* font-size: 20px; */
+  font-size: 10px;
   font-weight: bold;
   margin-top: -1em;
 }
+
 .date {
-  /* font-size: 0.5rem; */
+  font-size: 0.5rem;
   font-weight: bold;
   margin: -0.1vw 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .card {
+    height: 200px;
+  }
+  .card-body {
+    font-size: 0.6rem;
+  }
 }
